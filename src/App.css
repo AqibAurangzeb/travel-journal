@@ -39,7 +39,7 @@ nav {
 /* card component */
 
 .card-container {
-  margin-top: 2.8125em;
+  margin-top: 1.3em;
   padding: 1em;
 }
 
@@ -130,6 +130,10 @@ hr {
 }
 
 @media (min-width: 768px) {
+  .card-container {
+    margin-top: 2.8125em;
+  }
+
   nav {
     height: 100px;
   }
