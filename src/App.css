@@ -128,3 +128,49 @@ hr {
   margin: 20px auto;
   border: 1px solid #F5F5F5;
 }
+
+@media (min-width: 768px) {
+  nav {
+    height: 100px;
+  }
+  
+  .nav-title {
+    font-size: 1.6rem;
+  }
+  
+  .nav-logo {
+    font-size: 3rem;
+  }
+
+  .card,
+  hr {
+    max-width: 800px;
+  }
+  
+  .card-img {
+    width: 250px;
+    height: 336px;
+  }
+
+  .card-info {
+    margin-left: 2em;
+  }
+  
+  .card-info-location-dot {
+    font-size: 1.25rem;
+  }
+  
+  .card-info-location-name,
+  .card-info-location-maps,
+  .card-info-date,
+  .card-info-description
+   {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .card-info-place {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+}
